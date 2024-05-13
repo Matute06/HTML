@@ -1,12 +1,50 @@
-body{
-    color: orange
+:root {
+    --fuentePrincipal: "Titillium Web", sans-serif;
 }
-.titulos{
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgba(241, 97, 0, 0.637);
+    font-size: 10px;
+}
+
+body {
+    color: rgb(70, 67, 62);
+    font-family: var(--fuentePrincipal);
+}
+
+.encabezado {
     color: black;
+    background-image: url('../Imagenes/gaucho.jpg');
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    height: 20vh;
 }
-.titulo2{
-    color: blue;
+
+.navegador {
+    list-style: none;
+    text-align: center;
 }
-.contenido{
+
+.navegador li {
+    display: inline-block;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.contenido {
     color: peru;
 }

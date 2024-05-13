@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: rgb(31, 150, 61);
+    background-image: url(./images/rio_fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:190rem 100rem;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.encabezado {
+    background-color: rgba(43, 43, 43, 0.411);
+    height: 14rem;
+}
+
+.encabezado h1 {
+    color: rgba(206, 255, 200, 0.932);
+    text-align: center;
+    font-size: 4rem;
+}
+
+.menu_superior {
+    list-style: none;
+    text-align: center;
+}
+
+.menu_superior li {
+    display: inline-block;
+}
+
+.menu_superior a {
+    text-decoration: none;
+    color: rgba(206, 255, 200, 0.932);
+    font-size: 3rem;
+    padding: 4rem;
+}
+
+.contenido {
+    float: right;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: rgba(233, 255, 36, 0.651);
+    width: 80rem;
+    height: 40rem;
+    border-color: black;
+    border-radius: 3rem;
+    border-style: solid;
+    overflow: auto;
+    box-shadow: 1rem 1rem rgba(5, 5, 5, 0.63);
+}
+.imagenes{
+    box-shadow: 1rem 1rem rgba(140, 255, 165, 0.582);
+    height: 50rem;
+    width: 90rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.ir_abajo {
+    color: aliceblue;
+    float: right;
+}
+
+.ir_arriba {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(141, 255, 118);
+}

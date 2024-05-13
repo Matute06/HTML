@@ -5,25 +5,38 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Clase 3</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./Pages/estilos.css">
 </head>
 
 <body>
-	<header id="arriba">
-		<h1 class="titulos">Prueba de HTML</h1>
-		<a href="#abajo">Abajo</a>
+	<header id="arriba" class="encabezado">
+		<!--Navegador-->
+		<nav>
+			<ul class="navegador">
+				<li><a href="#contacto">Contacto</a></li>
+				<li><a href="#contenido">Contenido</a></li>
+				<li><a href="#listas">Listas</a></li>
+			</ul>
+			<div><a href="#abajo">Bajar</a></div>
+		</nav>
 	</header>
+	<!--Título y biografía-->
+	<h1>Prueba de HTML</h1>
 	<h2>Soy Matías Valdez de <strong>Chaco/Resistencia</strong>, aspirante a programador.</h2>
 	<h3>Me gustan los videojuegos y la programación</h3>
+	<!--Imagén y vídeo-->
 	<h4>Ahora algunas pruebas de HTML</h4>
-	<h3>Imágen y vídeo</h3>
+	<h3 id="contenido">Imágen y vídeo</h3>
 	<img src="./Imagenes/Mate.jpg" alt="Imagen de mate"><br>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/vwrmTSMmcaI?si=fiM7tiQP8KQsQrqf"
 		title="YouTube video player" frameborder="0"
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 		referrerpolicy="strict-origin-when-cross-origin" allowfullscreen alt="Vídeo de como hacer un mate"></iframe>
 	<h3>Listas ordenadas y desordenadas:</h3>
-	<h4>Nombres</h4>
+	<h4 id="listas">Nombres</h4>
 	<ul>
 		<li>Matías</li>
 		<li>Tomás</li>
@@ -39,7 +52,11 @@
 		<li>Introducir la bombilla.</li>
 		<li>Cebar.</li>
 	</ol>
-	<footer id="abajo">Footer de la página<br><a href="#arriba">Subir</a></footer>
+	<footer id="abajo">Footer de la página
+		<br>
+		<a href="#arriba">Subir</a>
+		<div id="contacto">Contacto: matiasvaldez2004@gmail.com</div>
+	</footer>
 </body>
 
 </html>
